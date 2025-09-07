@@ -26,32 +26,6 @@ It supports user authentication, image upload, selective download, and an admin 
 
 ---
 
-## 🗂 Folder Structure
-
-```
-/imagehub
-  ├── /admin
-  │     ├── dashboard.php
-  │     ├── photos.php
-  │     └── sidebar.php
-  ├── /auth
-  │     ├── login.php
-  │     ├── register.php
-  │     ├── logout.php
-  ├── /config
-  │     └── db.php
-  ├── /uploads
-  │     └── {username}_id{user_id}/  ← Each user's folder
-  ├── /user
-  │     ├── userdashboard.php
-  │     ├── profile.php
-  │     ├── download_selected.php
-  ├── index.php
-  └── README.md
-```
-
----
-
 ## ⚙️ Setup Instructions
 
 1. 📦 Clone the repo or download the source
@@ -88,5 +62,5 @@ Feel free to adapt or reuse the code for personal/commercial use.
 
 ## 👨‍💻 Author
 
-**Heer Jitesh Patel**  
+**Heer Patel**  
 Developed with ❤️ using PHP + Tailwind CSS
